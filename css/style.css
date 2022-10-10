@@ -2,6 +2,9 @@
   --main-color: #0084fd;
   --main-light-color: #b5dcff;
 }
+html {
+  font-size: 13px;
+}
 
 * {
   margin: 0;
@@ -42,7 +45,7 @@ ul {
 .col {
   flex-basis: 100%;
   border-radius: 20px;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .center {
@@ -89,4 +92,23 @@ main img {
 
 .bg-white {
   background-color: white;
+}
+
+.color-violet {
+  color: #9791e5;
+}
+
+.bg-violet .col-1-4 img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.mbottom {
+  margin-bottom: 1rem;
 }
