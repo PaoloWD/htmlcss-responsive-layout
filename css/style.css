@@ -57,7 +57,7 @@ p {
 }
 
 section {
-  margin: 3rem 0;
+  padding: 3rem 0;
 }
 
 main img {
@@ -111,4 +111,8 @@ main img {
 
 .mbottom {
   margin-bottom: 1rem;
+}
+
+.hight {
+  font-size: 5rem;
 }
