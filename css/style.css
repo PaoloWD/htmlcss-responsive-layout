@@ -1,0 +1,76 @@
+:root {
+  --main-color: #0084fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: var(--main-color);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container-nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.lg-menu {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.col {
+  flex-basis: 100%;
+  background-color: #b5dcff;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+p {
+  padding: 2rem 0;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+main img {
+  display: block;
+  width: 100%;
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+.icon-sizing {
+  font-size: 100px;
+  text-align: center;
+}
+
+.gap {
+  gap: 1rem;
+}
