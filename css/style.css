@@ -120,3 +120,15 @@ main img {
 .ptopbot {
   padding: 2rem 0;
 }
+
+.color-orange {
+  color: orange;
+}
+
+.p15 {
+  padding: 2rem 15rem;
+}
+
+.bg-black {
+  background-color: black;
+}
