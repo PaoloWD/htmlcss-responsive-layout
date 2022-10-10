@@ -98,7 +98,7 @@ main img {
   color: #9791e5;
 }
 
-.bg-violet .col-1-4 img {
+.col-1-4 img {
   object-fit: cover;
   border-radius: 50%;
   height: 150px;
@@ -115,4 +115,8 @@ main img {
 
 .hight {
   font-size: 5rem;
+}
+
+.ptopbot {
+  padding: 2rem 0;
 }
