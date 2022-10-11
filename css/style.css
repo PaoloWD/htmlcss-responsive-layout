@@ -14,6 +14,14 @@ html {
 
 nav {
   background-color: var(--main-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+main {
+  margin-top: 4rem;
 }
 
 .container {
@@ -71,7 +79,6 @@ main img {
 
 .icon-sizing {
   font-size: 100px;
-  text-align: center;
 }
 
 .gap {
@@ -98,6 +105,10 @@ main img {
   color: #9791e5;
 }
 
+.bg-main {
+  background-color: var(--main-color);
+}
+
 .col-md-1-4 img {
   object-fit: cover;
   border-radius: 50%;
@@ -107,6 +118,13 @@ main img {
 
 .align-items {
   align-items: center;
+}
+
+.icon-sizing-sm {
+  font-size: 50px;
+  top: 40px;
+  left: 110px;
+  position: relative;
 }
 
 .mbottom {
@@ -131,4 +149,32 @@ main img {
 
 .bg-black {
   background-color: black;
+}
+
+button {
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem;
+}
+
+.btn-md {
+  padding: 0.5rem 2rem;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+}
+
+.special-btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.pdx {
+  padding-right: 0.5rem;
+}
+
+.psx {
+  padding-left: 0.5rem;
 }
