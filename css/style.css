@@ -18,6 +18,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 4;
 }
 
 main {
@@ -125,6 +126,11 @@ main img {
   top: 40px;
   left: 110px;
   position: relative;
+}
+
+.card-move {
+  position: relative;
+  top: 40px;
 }
 
 .mbottom {
