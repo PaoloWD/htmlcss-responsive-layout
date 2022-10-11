@@ -98,7 +98,7 @@ main img {
   color: #9791e5;
 }
 
-.col-1-4 img {
+.col-md-1-4 img {
   object-fit: cover;
   border-radius: 50%;
   height: 150px;
