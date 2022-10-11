@@ -200,12 +200,12 @@ button {
 }
 
 .links {
-  padding: 1rem 1rem;
+  padding: 1rem;
   width: 150px;
   background-color: var(--main-color);
   color: white;
   border-bottom: 1px solid white;
   position: relative;
-  right: 70px;
+  right: 100px;
   text-align: center;
 }
